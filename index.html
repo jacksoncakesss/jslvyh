@@ -1,0 +1,222 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>寶貝生日快樂</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<script>
+		function enableContent() {
+			name=document.getElementById('demo-name').value;
+			email=document.getElementById('demo-email').value;
+			msg = document.getElementById('demo-message').value;
+			category=document.getElementById('demo-category');
+			value = category.options[category.selectedIndex].value;
+			
+			if(name === "郭于涵" && email==="寶貝" && value==2 && msg === '我愛你' && document.getElementById('demo-priority-high').checked){
+  var x = document.getElementsByClassName('panel spotlight medium right');
+  for (var i = 0, len = x.length; i < len; i++) {
+    // elements[i].style ...
+	if (x[i].style.display === "none") {
+    x[i].style.display = "inline";
+  } else {
+    x[i].style.display = "none";
+  }
+}
+var x = document.getElementsByClassName('panel spotlight medium left');
+  for (var i = 0, len = x.length; i < len; i++) {
+    // elements[i].style ...
+	if (x[i].style.display === "none") {
+    x[i].style.display = "inline";
+  } else {
+    x[i].style.display = "none";
+  }
+}}
+else
+{
+	alert('嘿嘿,寶貝你答錯囖');
+}
+			
+}
+
+  
+	</script>
+	 
+		
+	<body class="is-preload">
+	
+			<audio autoplay loop>		
+				<source src="music/hb.mp3" type="audio/mpeg">
+			  </audio>
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Wrapper -->
+					<div id="wrapper">
+
+						<!-- Panel (Banner) -->
+							<section class="panel banner right">
+								<div class="content color0 span-3-75">
+									<h1 class="major">寶貝生日快樂！<br />
+									</h1>
+									<p>寶寶貝貝~我要來履行生日500個字的承諾啦。首先當然是要祝福我的寶貝生日快樂，身體健康，萬事如意XD 不過在閱讀500字的內容前，請先前往下一頁進行寶貝驗證哦XD</p>
+									<ul class="actions">
+										<li><a href="#first" class="button primary color1 circle icon solid fa-angle-right">Next</a></li>
+									</ul>
+								</div>
+								<div class="image filtered span-1-75" data-position="25% 25%">
+									<img src="images/pic01.png" alt="" />
+								</div>
+							</section>
+								<!-- Panel -->
+								<section class="panel color2-alt">
+								
+									<div class="inner columns aligned">
+										
+				
+										<div class="span-4-5">
+											<h3 class="major">寶貝認證表</h3>
+											<form method="post" action="/#">
+												<div class="fields">
+													<div class="field third">
+														<label for="demo-name">姓名</label>
+														<input type="text" name="demo-name" id="demo-name" value="" placeholder="嘿嘿" required/>
+													</div>
+													<div class="field third">
+														<label for="demo-email">暱稱</label>
+														<input type="email" name="demo-email" id="demo-email" value="" placeholder="嘿嘿" required/>
+													</div>
+													<div class="field third">
+														<label for="demo-category">關係</label>
+														<div class="select-wrapper">
+															<select name="demo-category" id="demo-category" required>
+																<option value="">-</option>
+																<option value="1">敵人</option>
+																<option value="2">情侶</option>
+																<option value="3">小海豹</option>
+																<option value="4">Pingu</option>
+															</select>
+														</div>
+													</div>
+													<div class="field quarter">
+														<input type="radio" id="demo-priority-low" name="demo-priority" class="color2" checked />
+														<label for="demo-priority-low">不喜歡我</label>
+													</div>
+													<div class="field quarter">
+														<input type="radio" id="demo-priority-middle" name="demo-priority" class="color2" />
+														<label for="demo-priority-middle">喜歡我</label>
+													</div>
+													<div class="field quarter">
+														<input type="radio" id="demo-priority-high" name="demo-priority" class="color2" />
+														<label for="demo-priority-high">超級愛我</label>
+													</div>
+													<div class="field quarter">
+														<input type="radio" id="demo-priority-none" name="demo-priority" class="color2" />
+														<label for="demo-priority-none">不是機器人</label>
+													</div>
+													
+													<div class="field">
+														<label for="demo-message">想對我說的話</label>
+														<textarea name="demo-message" id="demo-message" placeholder="提示:我愛你" rows="2"></textarea>
+													</div>
+												</div>
+												<ul class="actions">
+													<li><input type="button" onclick="enableContent()" value="認證" class="primary color2" /></li>
+													<li><input type="reset" value="重置" /></li>
+												</ul>
+											</form>
+										</div>
+									</div>
+								</section>
+
+						<!-- Panel (Spotlight) -->
+							<section class="panel spotlight medium right" id="first" style="display: none;">
+								<div class="content span-7">
+									<h2 class="major">小告白</h2>
+									<p>這是我們在一起的第一個生日欸，到現在其實都會突然很感觸，怎麼都沒有想到我們就這樣在一起了。你一直都好奇我為什麼會這麼喜歡你，但其實應該是我好奇你為什麼會喜歡我吧。我真的覺得自己平平無奇也沒有什麼特別可以吸引你的地方，更何況又離你這麼遠你需要的時候我都沒辦法在你身邊陪你抱抱你，但你都不介意這些，那我還有什麼理由不喜歡你啦XD 好啦，講得好像是因為你不嫌棄我我才喜歡你哈哈哈。</p>
+								</div>
+								<div class="image filtered tinted" data-position="top left">
+									<img src="images/pic02.png" alt="" />
+								</div>
+							</section>
+							<!-- Panel (Spotlight) -->
+							<section class="panel spotlight medium right" id="first" style="display: none;">
+								<div class="content span-7">
+									<h2 class="major">小告白-2</h2>
+									<p>其實喜歡你的原因沒有什麼可以好奇的欸，應該是說我如果不喜歡你才會奇怪吧哈哈哈，你長得這麼漂亮好看，單單看到你就會被你吸引吧，我認真欸，你發照片給我看的時候我就覺得你很吸引人啊，就很漂亮很好看可是你就是一直覺得我只是講好聽的話啦，更何況你又不只是有外表啊，我們剛認識的時候你都會和我一起開玩笑講幹話耍智障XD，而且一開始的時候其實其中一個很喜歡和你講話的原因是因為你都很容易被我都笑，我真的第一次遇到會因為我隨便講的話然後一直笑的女生欸，不過男生也沒遇過啦XD 你就給我很舒服的感覺啊和你講話，你都會很認真聽我講話然後都會被我逗笑，而且我其實真的自己知道自己有很多缺點但你都不曾嫌棄</p>
+								</div>
+								<div class="image filtered tinted" data-position="top left">
+									<img src="images/pic04.png" alt="" />
+								</div>
+							</section>
+							<!-- Panel (Spotlight) -->
+							<section class="panel spotlight medium right" id="first" style="display: none;">
+								<div class="content span-7">
+									<h2 class="major">小告白-3</h2>
+									<p>久而久之就越來越喜歡和你這樣的相處方式，越來越想要一直逗你笑讓你開心，開始會做什麼事情都會想到你，開始會期待著等你洗完澡吹好頭髮和你講電話，會想要聽你分享一些自己的事情，甚至之後連午餐都想要霸占你時間XD我打到現在突然想到這些話會不會其實就和你朋友那個求婚的男生講的話差不多啊XD</p>
+								</div>
+								<div class="image filtered tinted" data-position="top left">
+									<img src="images/pic03.png" alt="" />
+								</div>
+							</section>
+							<!-- Panel (Spotlight) -->
+							<section class="panel spotlight medium right" id="first" style="display: none;">
+								<div class="content span-8">
+									<h2 class="major">小告白-4</h2>
+									<p>但其實有時候真的蠻神奇的欸，我一直覺得自己都不太會講這種感性的話可是現在居然在這裡寫500個字哈哈哈，可是其實一開始真的沒有想過會這樣欸，我真的單純只是無聊上去而我也知道你也是單純因為失戀所以需要找人講話，不過其實從和你坦白之後你哭出來我就有很特別的感覺了，那時就覺得你怎麼會因為我騙你年紀距離這些哭啊，而且你也明明就可以直接離開，可是當時其實自己心裡就有一種看到你哭會蠻心疼的感覺但我也不知道為什麼，那時我其實也覺得可能只是單純你剛失戀情緒也不好所以就單純想找人依賴，可是明知道你有可能只是一時需要人陪之後可能好了就不再需要再加上我們距離這麼遠，覺得你應該不太可能會和我有什麼，即使覺得這樣也只會浪費時間(畢竟我就是蠻現實啦哈哈哈所以以前曖昧只要知道不適合就不會浪費時間XD) 但我就還是會想陪你讓你依賴，我也以為可能就只是一時的新鮮感之後就不會了</p>
+								</div>
+								<div class="image filtered tinted" data-position="top left">
+									<img src="images/pic06.png" alt="" />
+								</div>
+							</section>
+							<!-- Panel (Spotlight) -->
+							<section class="panel spotlight medium left" id="first" style="display: none;">
+								<div class="content span-6">
+									<h2 class="major">到底還有多長啦XD</h2>
+									<p>結果後面就發現自己真的喜歡上你了，慢慢覺得你是一個可以讓我很自在相處，覺得你是一個和我想法很合很活潑可愛的女生，讓我想要什麼事情都和你分享，讓我想要好好保護你不讓你哭，讓我想要好好珍惜你這麼好的一個女孩子，讓我想要好好寵你，，讓我想要當一個值得你依賴並且你也不會後悔喜歡我的男朋友，甚至想把你納入我的未來里面想要讓你家人朋友都喜歡我，讓你真的覺得和我在一起是很幸福的。</p>
+								</div>
+								<div class="image filtered tinted" data-position="top left">
+									<img src="images/pic05.png" alt="" />
+								</div>
+							</section>
+							<!-- Panel (Spotlight) -->
+							<section class="panel spotlight medium right" id="first" style="display: none;">
+								<div class="content span-8">
+									<h2 class="major">寶貝，謝謝你</h2>
+									<p>我發現我好長氣哈哈哈，但我其實也想和你說寶貝謝謝你，其實與其說是我陪你不如說是你陪我吧，原本枯燥的生活現在多了你這麼一個開心果讓我一直都很開心很幸福真的謝謝你，謝謝你都不介意我很多的缺點包括距離，謝謝你都會在意我的感受怕我不開心，謝謝你的體貼還和我說在你面前做我自己就好，讓我覺得自己不是一個很差勁的男朋友，謝謝你都會為了我做一些你之前都不會做的事情，謝謝你一直都會為我著想，謝謝你讓我原本因為距離的問題猶豫到現在很堅定的覺得我們一定可以一起努力見面然後娶你	XD (會不會太快哈哈哈)</p>
+								</div>
+								<div class="image filtered tinted" data-position="top left">
+									<img src="images/pic10.jpg" alt="" />
+								</div>
+							</section>
+							<!-- Panel (Spotlight) -->
+							<section class="panel spotlight medium left" id="first" style="display: none;">
+								<div class="content span-4">
+									<h2 class="major">寶貝,我愛你</h2>
+									<p>最後只是想和寶貝你說你真的對我來說是最棒的，我希望寶貝也一樣都可以做自己，因為對我來說，即使你歡還是會有小情緒，對我來說我都是覺得很可愛的，和你在一起的每個瞬間我都覺得自己真的爆炸開心和幸福，所以寶貝！生日快樂，我愛你。</p>
+								</div>
+								<div class="image filtered tinted" data-position="top left">
+									<img src="images/pic07.png" alt="" />
+								</div>
+							</section>
+					
+
+					
+
+	
+
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
